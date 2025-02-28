@@ -30,6 +30,17 @@ public class Game {
             System.out.println("...");
             System.out.println(j1 + " a fait : " + tempJ1Score + " !");
             System.out.println(j2 + " a fait : " + tempJ2Score + " !");
+            if (tempJ1Score == 1){
+                System.out.println(j1 + " lance la coupe !");
+                tempJ1Score = J1.throwCup().getRollValue();
+                System.out.println(j1 + " a fait : " + tempJ1Score + " !");
+            }
+            if (tempJ2Score == 1){
+                System.out.println(j2 + " lance la coupe !");
+                tempJ2Score = J2.throwCup().getRollValue();
+                System.out.println(j2 + " a fait : " + tempJ2Score + " !");
+            }
+
             if (tempJ1Score > tempJ2Score){
                 setScoreJ1(scoreJ1 + 2);
                 System.out.println(j1 + " ajoute deux points à son score !");
