@@ -1,4 +1,4 @@
-package personnages;
+package rpg.personnages;
 import java.util.Random;
 
 public class Guerrier extends Personnage{

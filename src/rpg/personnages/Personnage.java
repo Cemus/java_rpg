@@ -1,4 +1,4 @@
-package personnages;
+package rpg.personnages;
 
 public class Personnage {
     private String nom;

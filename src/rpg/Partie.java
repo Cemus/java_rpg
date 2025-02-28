@@ -1,4 +1,6 @@
-import personnages.Personnage;
+package rpg;
+
+import rpg.personnages.Personnage;
 
 public class Partie {
     private Personnage joueur1;
